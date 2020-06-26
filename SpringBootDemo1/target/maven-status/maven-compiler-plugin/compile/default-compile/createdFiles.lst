@@ -1,0 +1,7 @@
+com\oracle\controller\HelloController.class
+com\oracle\Demo.class
+com\oracle\service\HelloService.class
+META-INF\spring-configuration-metadata.json
+com\oracle\MyConfig.class
+com\oracle\Dog.class
+com\oracle\Person.class

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>success.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8"/>
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+   <h1>SUCCESS!!!</h1> 
+   <h1><span th:text="${hello}"> </span></h1>
+   <div th:text="覆盖div">This is div page</div>
+   AAAAS
+    <span th:each="user:${users}"> <span th:text="${user}"></span><br/></span>
+     <div th:utext="${name }">This is div </div>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+2020-04-15 23:43:25.856  INFO 6972 --- [main] com.oracle.Demo                          : Starting Demo on jize with PID 6972 (started by 默尘 in C:\eclipse\Workspaces\MyEclipse 2016 CI\SpringBootDemo1)
+2020-04-15 23:43:25.859 DEBUG 6972 --- [main] com.oracle.Demo                          : Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2020-04-15 23:43:25.860  INFO 6972 --- [main] com.oracle.Demo                          : The following profiles are active: dev
+2020-04-15 23:43:25.909  INFO 6972 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2aece37d: startup date [Wed Apr 15 23:43:25 CST 2020]; root of context hierarchy
+2020-04-15 23:43:27.301  INFO 6972 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7777 (http)
+2020-04-15 23:43:27.330  INFO 6972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-15 23:43:27.333  INFO 6972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2020-04-15 23:43:27.566  INFO 6972 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-15 23:43:27.567  INFO 6972 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1660 ms
+2020-04-15 23:43:27.822  INFO 6972 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-15 23:43:27.828  INFO 6972 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-15 23:43:27.830  INFO 6972 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-15 23:43:27.831  INFO 6972 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-15 23:43:27.832  INFO 6972 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-15 23:43:28.369  INFO 6972 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2aece37d: startup date [Wed Apr 15 23:43:25 CST 2020]; root of context hierarchy
+2020-04-15 23:43:28.470  INFO 6972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/testDemo]}" onto public java.lang.String com.oracle.controller.HelloController.testDemo()
+2020-04-15 23:43:28.473  INFO 6972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.oracle.controller.HelloController.hello()
+2020-04-15 23:43:28.478  INFO 6972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-15 23:43:28.481  INFO 6972 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-15 23:43:28.513  INFO 6972 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-15 23:43:28.514  INFO 6972 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-15 23:43:28.562  INFO 6972 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-15 23:43:28.774  INFO 6972 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-04-15 23:43:28.904  INFO 6972 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7777 (http)
+2020-04-15 23:43:28.912  INFO 6972 --- [main] com.oracle.Demo                          : Started Demo in 3.415 seconds (JVM running for 4.702)
+2020-04-15 23:43:37.096  INFO 6972 --- [http-nio-7777-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 23:43:37.097  INFO 6972 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-15 23:43:37.149  INFO 6972 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+2020-04-15 23:43:37.184 TRACE 6972 --- [http-nio-7777-exec-1] com.oracle.controller.HelloController    : 这个是trace级别的日志
+2020-04-15 23:43:37.184 DEBUG 6972 --- [http-nio-7777-exec-1] com.oracle.controller.HelloController    : 这个是debug级别的日志
+2020-04-15 23:43:37.184  INFO 6972 --- [http-nio-7777-exec-1] com.oracle.controller.HelloController    : 这个是info级别的日志
+2020-04-15 23:43:37.185  WARN 6972 --- [http-nio-7777-exec-1] com.oracle.controller.HelloController    : 这个是warn级别的日志
+2020-04-15 23:43:37.185 ERROR 6972 --- [http-nio-7777-exec-1] com.oracle.controller.HelloController    : 这个是error级别的日志
+2020-04-16 00:10:08.788  INFO 6972 --- [RMI TCP Connection(2)-192.168.229.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-16 00:10:08.790  INFO 6972 --- [RMI TCP Connection(2)-192.168.229.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2aece37d: startup date [Wed Apr 15 23:43:25 CST 2020]; root of context hierarchy
+2020-04-16 00:10:08.817  INFO 6972 --- [RMI TCP Connection(2)-192.168.229.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-04-30[main]INFO  com.oracle.Demo-Starting Demo on jize with PID 50184 (started by 默尘 in C:\eclipse\Workspaces\MyEclipse 2016 CI\SpringBootDemo1)
+2020-04-30[main]DEBUG com.oracle.Demo-Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2020-04-30[main]INFO  com.oracle.Demo-The following profiles are active: dev
+2020-04-30[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2aece37d: startup date [Thu Apr 30 16:36:00 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat initialized with port(s): 7777 (http)
+2020-04-30[main]INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-04-30[main]INFO  org.apache.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.16
+2020-04-30[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-04-30[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1316 ms
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean-Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2aece37d: startup date [Thu Apr 30 16:36:00 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/success]}" onto public java.lang.String com.oracle.controller.DemoController.success(java.util.Map<java.lang.String, java.lang.Object>)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testdemo]}" onto public java.lang.String com.oracle.controller.DemoController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testDemo]}" onto public java.lang.String com.oracle.controller.HelloController.testDemo()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/hello]}" onto public java.lang.String com.oracle.controller.HelloController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat started on port(s): 7777 (http)
+2020-04-30[main]INFO  com.oracle.Demo-Started Demo in 2.64 seconds (JVM running for 3.78)
+2020-04-30[http-nio-7777-exec-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2020-04-30[http-nio-7777-exec-4]ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [success]: would dispatch back to the current handler URL [/success] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [success]: would dispatch back to the current handler URL [/success] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:205)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:145)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-Application shutdown requested.
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2aece37d: startup date [Thu Apr 30 16:36:00 CST 2020]; root of context hierarchy
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Unregistering JMX-exposed beans on shutdown
+2020-04-30[main]INFO  com.oracle.Demo-Starting Demo on jize with PID 70328 (started by 默尘 in C:\eclipse\Workspaces\MyEclipse 2016 CI\SpringBootDemo1)
+2020-04-30[main]DEBUG com.oracle.Demo-Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2020-04-30[main]INFO  com.oracle.Demo-The following profiles are active: dev
+2020-04-30[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:41:35 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat initialized with port(s): 7777 (http)
+2020-04-30[main]INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-04-30[main]INFO  org.apache.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.16
+2020-04-30[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-04-30[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1298 ms
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean-Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:41:35 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testdemo]}" onto public java.lang.String com.oracle.controller.DemoController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/success]}" onto public java.lang.String com.oracle.controller.DemoController.success(java.util.Map<java.lang.String, java.lang.Object>)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/hello]}" onto public java.lang.String com.oracle.controller.HelloController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testDemo]}" onto public java.lang.String com.oracle.controller.HelloController.testDemo()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]WARN  org.thymeleaf.templatemode.TemplateMode-[THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-30[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat started on port(s): 7777 (http)
+2020-04-30[main]INFO  com.oracle.Demo-Started Demo in 3.207 seconds (JVM running for 4.377)
+2020-04-30[http-nio-7777-exec-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-Application shutdown requested.
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:41:35 CST 2020]; root of context hierarchy
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Unregistering JMX-exposed beans on shutdown
+2020-04-30[main]INFO  com.oracle.Demo-Starting Demo on jize with PID 11196 (started by 默尘 in C:\eclipse\Workspaces\MyEclipse 2016 CI\SpringBootDemo1)
+2020-04-30[main]DEBUG com.oracle.Demo-Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2020-04-30[main]INFO  com.oracle.Demo-The following profiles are active: dev
+2020-04-30[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:48:23 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat initialized with port(s): 7777 (http)
+2020-04-30[main]INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-04-30[main]INFO  org.apache.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.16
+2020-04-30[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-04-30[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1290 ms
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean-Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:48:23 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testdemo]}" onto public java.lang.String com.oracle.controller.DemoController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/success]}" onto public java.lang.String com.oracle.controller.DemoController.success(java.util.Map<java.lang.String, java.lang.Object>)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/hello]}" onto public java.lang.String com.oracle.controller.HelloController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testDemo]}" onto public java.lang.String com.oracle.controller.HelloController.testDemo()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]WARN  org.thymeleaf.templatemode.TemplateMode-[THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-30[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat started on port(s): 7777 (http)
+2020-04-30[main]INFO  com.oracle.Demo-Started Demo in 3.281 seconds (JVM running for 4.447)
+2020-04-30[http-nio-7777-exec-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-Application shutdown requested.
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:48:23 CST 2020]; root of context hierarchy
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Unregistering JMX-exposed beans on shutdown
+2020-04-30[main]INFO  com.oracle.Demo-Starting Demo on jize with PID 63000 (started by 默尘 in C:\eclipse\Workspaces\MyEclipse 2016 CI\SpringBootDemo1)
+2020-04-30[main]DEBUG com.oracle.Demo-Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2020-04-30[main]INFO  com.oracle.Demo-The following profiles are active: dev
+2020-04-30[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:53:37 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat initialized with port(s): 7777 (http)
+2020-04-30[main]INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-04-30[main]INFO  org.apache.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.16
+2020-04-30[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-04-30[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1273 ms
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean-Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:53:37 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/success]}" onto public java.lang.String com.oracle.controller.DemoController.success(java.util.Map<java.lang.String, java.lang.Object>)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testdemo]}" onto public java.lang.String com.oracle.controller.DemoController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testDemo]}" onto public java.lang.String com.oracle.controller.HelloController.testDemo()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/hello]}" onto public java.lang.String com.oracle.controller.HelloController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]WARN  org.thymeleaf.templatemode.TemplateMode-[THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-30[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat started on port(s): 7777 (http)
+2020-04-30[main]INFO  com.oracle.Demo-Started Demo in 3.264 seconds (JVM running for 4.379)
+2020-04-30[http-nio-7777-exec-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-Application shutdown requested.
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:53:37 CST 2020]; root of context hierarchy
+2020-04-30[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Unregistering JMX-exposed beans on shutdown
+2020-04-30[main]INFO  com.oracle.Demo-Starting Demo on jize with PID 38188 (started by 默尘 in C:\eclipse\Workspaces\MyEclipse 2016 CI\SpringBootDemo1)
+2020-04-30[main]DEBUG com.oracle.Demo-Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2020-04-30[main]INFO  com.oracle.Demo-The following profiles are active: dev
+2020-04-30[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:56:00 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat initialized with port(s): 7777 (http)
+2020-04-30[main]INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2020-04-30[main]INFO  org.apache.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.16
+2020-04-30[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2020-04-30[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1242 ms
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean-Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-30[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:56:00 CST 2020]; root of context hierarchy
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/success]}" onto public java.lang.String com.oracle.controller.DemoController.success(java.util.Map<java.lang.String, java.lang.Object>)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testdemo]}" onto public java.lang.String com.oracle.controller.DemoController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/testDemo]}" onto public java.lang.String com.oracle.controller.HelloController.testDemo()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/hello]}" onto public java.lang.String com.oracle.controller.HelloController.hello()
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-30[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-30[main]WARN  org.thymeleaf.templatemode.TemplateMode-[THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-30[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2020-04-30[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer-Tomcat started on port(s): 7777 (http)
+2020-04-30[main]INFO  com.oracle.Demo-Started Demo in 3.039 seconds (JVM running for 4.184)
+2020-04-30[http-nio-7777-exec-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-30[http-nio-7777-exec-1]INFO  org.springframework.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2020-05-01[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-Application shutdown requested.
+2020-05-01[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e50a6f6: startup date [Thu Apr 30 16:56:00 CST 2020]; root of context hierarchy
+2020-05-01[RMI TCP Connection(2)-192.168.229.1]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter-Unregistering JMX-exposed beans on shutdown

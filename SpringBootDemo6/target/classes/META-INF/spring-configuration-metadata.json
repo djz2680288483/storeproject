@@ -1,0 +1,12 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.oracle.tools.MyConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "public javax.sql.DataSource datasource() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
